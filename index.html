@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>司法网</title>
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/bootstrap-theme.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <!--[if lt IE 9]>
+        <script src="js/html5.js"></script>
+    <![endif]-->
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <div class="header-top">
+                <p class="welcome">
+                    <script src="js/plugins/date.js"></script>
+                </p>
+                <ul class="top-right">
+                    <li><a href="#" onlick="SetHome(this,location.href)">设为首页</a></li>
+                    <li class="last"><a href="#" onclick="AddFavorite(location.href,'司法网');">加入收藏</a></li>
+                </ul>
+            </div>
+            <ul class="header-nav">
+                <li class="header-item">
+                    <a href="#" class="active">首页</a>
+                </li>
+                <li class="header-item">
+                    <a href="#">New features</a>
+                </li>
+                <li class="header-item">
+                    <a href="#">Press</a>
+                </li>
+                <li class="header-item">
+                    <a href="#">New hires</a>
+                </li>
+                <li class="header-item">
+                    <a href="#">About</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <div id="slideBox" class="slideBox">
+                    <div class="shead">
+                        <ul></ul>
+                    </div>
+                    <div class="sbody">
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    <img src="images/demo/1.jpg" />
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/demo/2.jpg" />
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/demo/3.jpg" />
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/demo/4.jpg" />
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- 下面是前/后按钮代码，如果不需要删除即可 -->
+                    <a class="prev" href="javascript:void(0)"></a>
+                    <a class="next" href="javascript:void(0)"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/plugins/slide.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
